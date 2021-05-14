@@ -38,6 +38,7 @@ def clean_data(data_path, save_path, min_rows):
         if file_name.endswith("CSV"):
 
             file_path = data_path + str(file_name)
+
             headers = [
                 "TAG",
                 "DATE",
@@ -98,4 +99,12 @@ def clean_data(data_path, save_path, min_rows):
 
 data_folder = r"./data/original/"
 save_folder = r"./data/preprocessed/"
-clean_data(data_folder, save_folder, min_rows=20)
+# clean_data(data_folder, save_folder, min_rows=20)
+
+
+for file_name in os.listdir(save_folder):
+
+    file_path = save_folder + str(file_name)
+
+    data = pd.read_pickle(file_path)
+    print()
