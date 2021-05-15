@@ -3,6 +3,7 @@
 Web application for GPS visualization. The backend is programmed in Django and the frontend in React.
 
 # Installation
+- very useful tutorial can be found [here](https://www.youtube.com/watch?v=JD-age0BPVo&list=PLzMcBGfZo4-kCLWnGmK0jUBmGLaJxvi4j).
 
 ## 1. Django
 
