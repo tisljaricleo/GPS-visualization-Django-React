@@ -31,6 +31,8 @@ export default class HomePage2 extends Component {
 
   handleButtonClick(){
     console.log(this.state);
+    //const csrftoken = Cookies.get('csrftoken');
+    //console.log(csrftoken);
 
     const requestOptions = {
       method: "POST",
