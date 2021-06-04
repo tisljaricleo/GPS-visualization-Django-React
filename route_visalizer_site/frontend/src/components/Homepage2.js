@@ -36,7 +36,9 @@ export default class HomePage2 extends Component {
 
     const requestOptions = {
       method: "POST",
-      headers: {"Content-Type": "application/json"},
+      headers: 
+        {"Content-Type": "application/json", 
+        "Authorization": "Token f77798b0c1e2bfd2b850aa99e605ef390eca6661"},
       body: JSON.stringify({
         date_time: "2018-11-20T15:58:44.767594-06:00",
       })

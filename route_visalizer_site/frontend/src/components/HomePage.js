@@ -7,6 +7,7 @@ import {
   Redirect,
 } from "react-router-dom";
 import HomePage2 from "./Homepage2";
+import MapPage from "./MapPage";
 
 export default class HomePage extends Component {
   constructor(props) {
@@ -21,7 +22,8 @@ export default class HomePage extends Component {
             <p>This is the home page</p>
           </Route>
           <Route path="/second" component={HomePage2} />
-          
+         <Route path="/map" component={MapPage} />
+
         </Switch>
       </Router>
     );
