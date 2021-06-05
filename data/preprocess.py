@@ -97,8 +97,8 @@ def clean_data(data_path, save_path, min_rows):
             data.to_pickle(save_path + file_name.split(".")[0] + ".pkl")
 
 
-data_folder = r"./data/original/"
-save_folder = r"./data/preprocessed/"
+data_folder = r"./original/"
+save_folder = r"./preprocessed/"
 # clean_data(data_folder, save_folder, min_rows=20)
 
 

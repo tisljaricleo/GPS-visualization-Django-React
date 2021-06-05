@@ -1,6 +1,7 @@
 .vscode
 venv
-data/
+data/original/
+data/preprocessed/
 __pycache__
 node_modules
 db.sqlite3

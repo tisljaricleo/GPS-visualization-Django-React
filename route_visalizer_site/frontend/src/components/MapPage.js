@@ -48,7 +48,6 @@ export default class MapPage extends Component {
                  mapStyle="mapbox://styles/mapbox/dark-v9"
                  onViewportChange={viewport => this.setState({viewport})}
                  mapboxApiAccessToken="pk.eyJ1IjoidGlzbGphcmljbGVvIiwiYSI6ImNrcGlhaXk0cjBoYmEyb3BjbnIwY3lnc3kifQ.pFnHzkkFObZO7aI-0SFVZQ"
-                 
             />
                 
             </Grid>
